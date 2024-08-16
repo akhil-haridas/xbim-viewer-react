@@ -14,8 +14,19 @@ body {
 
 .SideBarWrapper {
   height: 100%;
-  background: aquamarine;
+  /* background: aquamarine; */
   width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentWrapper{
+  height: 70%;
+}
+
+.SmallView{
+  height: 30%;
+  /* background-color:blue ; */
 }
 
 .ViewerContainer {
@@ -27,7 +38,7 @@ body {
 .ToolBarWrapper {
   width: 100%;
   height: 15%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .ViewerWrapper {
