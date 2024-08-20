@@ -10,7 +10,7 @@ function App() {
       <Sidebar />
       <div className="ViewerContainer">
         <ToolBar />
-        <XimViewer modelPath={"/models/envelope.wexbim"} />
+        <XimViewer modelPath={"/models/SampleHouseV3.wexbim"} />
       </div>
     </div>
   );
