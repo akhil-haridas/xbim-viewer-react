@@ -31,6 +31,7 @@ const XimViewer = React.memo(({ modelPath }) => {
     viewer.addPlugin(cube);
 
     var plane = new InteractiveClippingPlane();
+    window.plane = plane
     viewer.addPlugin(plane);
 
     viewer.defineStyle(0, [255, 0, 0, 255]);  //red
