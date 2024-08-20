@@ -52,7 +52,24 @@ body {
 .ToolBarWrapper {
   width: 100%;
   height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   /* background-color: antiquewhite; */
+}
+
+.ToolBarWrapper > button {
+  height: 50px;
+  min-width: 50px;
+  background: transparent;
+  border-radius: 12px;
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+.ToolBarWrapper > button:hover{
+  color: white;
+  background-color: black;
 }
 
 .ViewerWrapper {
